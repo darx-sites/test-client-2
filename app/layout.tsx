@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Test Client 2 | Professional Portfolio',
   description: 'Showcasing exceptional work and expertise in portfolio. Discover our projects, services, and creative solutions.',
-  keywords: 'portfolio, professional services, creative work, projects, expertise',
+  keywords: 'portfolio, professional services, creative work, projects, Test Client 2',
   authors: [{ name: 'Test Client 2' }],
   openGraph: {
     title: 'Test Client 2 | Professional Portfolio',
