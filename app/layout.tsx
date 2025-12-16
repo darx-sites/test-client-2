@@ -6,20 +6,24 @@ import '@/lib/builder';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Test Client 2 - Professional Portfolio',
-  description: 'Showcasing excellence in portfolio design and development. Discover our work and expertise.',
-  keywords: 'portfolio, design, development, creative work, professional services',
+  title: 'Test Client 2 | Professional Portfolio',
+  description: 'Showcasing exceptional work and expertise in portfolio. Discover our projects, services, and creative solutions.',
+  keywords: 'portfolio, professional services, creative work, projects, expertise',
   authors: [{ name: 'Test Client 2' }],
   openGraph: {
-    title: 'Test Client 2 - Professional Portfolio',
-    description: 'Showcasing excellence in portfolio design and development.',
+    title: 'Test Client 2 | Professional Portfolio',
+    description: 'Showcasing exceptional work and expertise in portfolio',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Test Client 2 - Professional Portfolio',
-    description: 'Showcasing excellence in portfolio design and development.',
+    title: 'Test Client 2 | Professional Portfolio',
+    description: 'Showcasing exceptional work and expertise in portfolio',
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
